@@ -386,7 +386,7 @@ li {
     margin: 0 auto;
 }
 
-#AboutUS {
+#AboutUs {
     display: block;
     margin: 30px 0 60px;
 }
@@ -411,4 +411,8 @@ li {
 #Jaques {
     width: 250px;
     height: auto;
+}
+
+.Paragrah{
+    margin: 20px 0;
 }
