@@ -12,6 +12,11 @@ header {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  margin: 11px auto;
+  font-size: 48px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 header nav {
@@ -24,6 +29,11 @@ header nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  list-style: none;
+  font-size: 16px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 header nav ul li {
@@ -43,8 +53,6 @@ header nav ul li a:hover {
   background-color: #707070;
   border-radius: 5px;
 }
-<<<<<<< HEAD
-=======
 
 header input {
   height: 26px;
@@ -53,5 +61,45 @@ header input {
       -ms-grid-row-align: center;
       align-self: center;
 }
->>>>>>> 9e79cf6b559c3263474d8b2b988bd96b5fffcb0b
+
+footer {
+  background-color: #808080;
+  color: #707070;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 1240px;
+  height: 73px;
+  margin: auto;
+}
+
+footer h1 {
+  font-size: 34px;
+}
+
+footer hr {
+  color: #252E34;
+}
+
+footer p, footer span {
+  font-size: 12px;
+}
+
+footer p {
+  color: #818181;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer span {
+  color: #B2B2B2;
+}
 /*# sourceMappingURL=parts.css.map */

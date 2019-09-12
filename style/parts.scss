@@ -44,14 +44,30 @@ header{
     
 
 footer {
-    background-color: #707070;
-    color: #808080;
+    background-color: #808080;
+    color: #707070;
 
     display: flex;
     flex-direction: row;
+    width: 1240px;
+    height: 73px;
+    margin:auto;
 
+    h1{
+        font-size: 34px;
+    }
+
+    hr{
+        color: #252E34;
+    }
+    p, span{
+        font-size: 12px;
+
+    }
     p{
         color: #818181;
+        display: flex;
+        justify-content: space-between;
     }
     span{
         color: #B2B2B2;
