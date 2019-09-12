@@ -10,22 +10,38 @@
     <!-- We need to launch the website with "Go Live" -->
     <script type="module" src='https://unpkg.com/html-include-element'></script>
     <style>
+        main {
+            width: 800px;
+            margin: 0 auto;
+        }
+
         body main span {
             display: block;
-            margin-bottom: 20px;
+            margin-bottom: 60px;
         }
 
         /* Some Styling here maybe ? */
-        * {
-            margin: 0px;
+        #TextPicture {
+            display: flex;
+            margin: 30px 0;
         }
 
-        article {
+        #TextPicture p {
+            margin-left: 50px;
+        }
+
+        article p {
             column-count: 2;
+
         }
 
-        section {
+        #Bottom p {
             column-count: 3;
+        }
+
+        img {
+            width: 250px;
+            height: auto;
         }
     </style>
 </head>
@@ -33,10 +49,6 @@
 <body>
     <html-include src="parts/header.html"></html-include>
     <main>
-
-
-
-
         </div>
         <span>About Us</span>
         <section class="Titel">
@@ -46,7 +58,7 @@
             in magna
             mollis lectus lacinia mollis.
         </section>
-        <div>
+        <div id="TextPicture">
             <img src="https://p5.storage.canalblog.com/53/01/735336/52162821.jpg" alt="Nice Picture">
             <p>
                 Maecenas ipsum metus, semper hendrerit varius mattis, hasr congue sit amet tellus. Aliquam ullamcorper
@@ -97,16 +109,16 @@
             <article>
                 <p>Quisque mollis, sem id laoreet pretium, lectus elit molestie urna, id tristique risus ante at est.
                     Sed pretium metus sit amet erat blandit vitae pulvinar lorem egestas. Sed lectus nulla, bibendum at
-                    vulputate sit amet, tincidunt volutpat lorem.<br> Quisque mollis, sem id laoreet pretium, lectus
+                    vulputate sit amet, tincidunt volutpat lorem. Quisque mollis, sem id laoreet pretium, lectus
                     elit molestie urna, id tristique risus ante at est. Sed pretium metus sit amet erat blandit vitae
                     pulvinar lorem egestas. Sed lectus nulla, bibendum at vulputate sit amet, tincidunt volutpat lorem.
                 </p>
             </article>
-            <section>
-                <p>Quisque mollis, sem id laoreet pretium, lectus elit molestie urna, id tristique risus ante at est.
-                    Sed pretium metus sit amet erat blandit vitae pulvinar lorem egestas.<br>Quisque mollis, sem id
+            <section id="Bottom">
+                <p> Quisque mollis, sem id laoreet pretium, lectus elit molestie urna, id tristique risus ante at est.
+                    Sed pretium metus sit amet erat blandit vitae pulvinar lorem egestas.Quisque mollis, sem id
                     laoreet pretium, lectus elit molestie urna, id tristique risus ante at est. Sed pretium metus sit
-                    amet erat blandit vitae pulvinar lorem egestas.<br>Quisque mollis, sem id laoreet pretium, lectus
+                    amet erat blandit vitae pulvinar lorem egestas.Quisque mollis, sem id laoreet pretium, lectus
                     elit molestie urna, id tristique risus ante at est. Sed pretium metus sit amet erat blandit vitae
                     pulvinar lorem egestas.</p>
             </section>
