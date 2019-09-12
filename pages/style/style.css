@@ -1,5 +1,6 @@
 body{
-    
+    background-image: url("images/spacer.gif");
+
     list-style: none;
 }
 
@@ -21,7 +22,6 @@ p{
 }
 
 section {
-    border: 1px solclass blue;
     display: flex;
     align-items: flex-start;
 
@@ -31,6 +31,7 @@ div.left{
 }
 .slightgrey{
     color: rgb(128, 124, 124)
+}
 .archive-main-div{
     display: flex;
     justify-content: space-between;
