@@ -31,6 +31,7 @@ div.left{
 }
 .slightgrey{
     color: rgb(128, 124, 124)
+}
 .archive-main-div{
     display: flex;
     justify-content: space-between;
