@@ -111,7 +111,11 @@ div.left{
     border: none;
     color: white;
 }
+footer div{
+    width: 1200px;
+    margin: 0 auto;
 
+}
 footer {
     background-color: #D3D3D3;
     color: #707070;
@@ -134,6 +138,7 @@ footer {
 
 footer h1 {
     font-size: 34px;
+    padding: 0;
 }
 
 footer hr {
