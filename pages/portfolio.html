@@ -11,13 +11,74 @@
     <script type="module" src='https://unpkg.com/html-include-element'></script>
     <style>
         /* Some Styling here maybe ? */
-    </style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            transition-duration: 0.3s;
+        }
+
+        ul {
+            display: flex;
+            padding-left:120px;
+        }
+
+        a {
+
+            text-decoration: none;
+            color: black;
+            border-left: 1px solid black;
+            padding-right: 20px;
+            padding-left: 10px;
+            font-size: 14px;
+        }
+
+        .noborder{
+            border:none;
+
+        }
+        h1{
+            font-size:15px;
+            padding-left:130px;
+        }
+
+
+
+
+
+</style>
 </head>
 
 <body>
     <html-include src="parts/header.html"></html-include>
     <main>
-        Portfolio
+        <h1>Portfolio</h1>
+
+        <nav>
+            <ul>
+                <div class="noborder">
+                    <li><a class="noborder" href="#all">All</a></li>
+                </div>
+                <li><a href="#audio">Audio</a></li>
+                <li><a href="#development">Development</a></li>
+                <li><a href="#web">Web</a></li>
+                <li><a href="#print design">Print Design</a></li>
+                <li><a href="#motiongraphics">MotionGraphics</a></li>
+            </ul>
+        </nav>
+
+
+
+
+
+
+
+
+
+
+
+
     </main>
     <html-include src="parts/footer.html"></html-include>
 </body>
