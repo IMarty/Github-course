@@ -48,6 +48,11 @@ div.left{
     color: rgb(128, 124, 124)
 }
 
+section.flexsection {
+    display: flex;
+    align-items: flex-start;
+}
+
 #navBar nav {
     display: -webkit-box;
     display: -ms-flexbox;
