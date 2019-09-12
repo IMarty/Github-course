@@ -4,6 +4,7 @@
     padding: 0;
     transition-duration: .3s;
     scroll-behavior: smooth;
+    list-style: none;
 }
 #navBar {
     display: -webkit-box;
@@ -39,13 +40,6 @@ h1 {
 
 p{
     font-size: 12px;
-}
-
-section {
-    border: 1px solid blue;
-    display: flex;
-    align-items: flex-start;
-    
 }
 div.left{
     width: 300px;
@@ -386,7 +380,7 @@ li {
 
 .card:hover .text {
     opacity: 1;
-
+}
 #Lost {
     width: 800px;
     margin: 0 auto;
