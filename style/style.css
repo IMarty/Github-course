@@ -4,6 +4,7 @@
     padding: 0;
     transition-duration: .3s;
     scroll-behavior: smooth;
+    list-style: none;
 }
 #navBar {
     display: -webkit-box;
