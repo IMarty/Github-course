@@ -4,7 +4,51 @@
     padding: 0;
 }
 
-main {
-    width: 70%;
-    margin: 0 auto;
+#home-main {
+    width: 85%;
+    margin: 40px auto;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+#cta {
+    display: flex;
+}
+
+#cta h2 {
+    font-size: 24px;
+}
+
+#cta p {
+    font-size: 12px;
+    margin: 20px 0
+}
+
+#cta a {
+    font-size: 12px;
+    padding: 10px 30px;
+    background-image: linear-gradient(to bottom, #777 0%, #888 50%, #777 100%);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#cta img {
+    margin: 0 30px;
+}
+#introduction{
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+    margin: 5px auto;
+}
+.introcard{
+    width: 220px;
+    padding: 10px;
+    -webkit-box-shadow: 0px 0px 12px 11px rgba(0,0,0,0.12);
+    -moz-box-shadow: 0px 0px 12px 11px rgba(0,0,0,0.12);
+    box-shadow: 0px 0px 12px 11px rgba(0,0,0,0.12);
+    /*https://www.cssmatic.com/box-shadow*/
+}
+.introcard .readmore{
+    margin-top: 20px;
 }

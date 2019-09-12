@@ -10,7 +10,53 @@
     <!-- We need to launch the website with "Go Live" -->
     <script type="module" src='https://unpkg.com/html-include-element'></script>
     <style>
-        /* Some Styling here maybe ? */
+        *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+    body{
+        font-family: 'helvetica', serif;
+    }
+    #contact{
+        width: 1200px;
+        margin: auto;
+    }
+    #contact h1{
+        font-weight: 100;
+        padding: 2rem 0 4rem 0;
+    }
+    #contact p{
+        padding-bottom: 3rem;
+    }
+    #contact .input{
+        border-radius: 7px;
+        height: 3rem;
+        width: 25rem;
+        margin: 0.8rem 0;
+    }
+    #com{
+        width: 40rem;
+        height: 20rem;
+        font-family: 'helvetica';
+        padding: 1rem 0 0 0.3rem;
+        font-size: 1rem;
+        border: none;
+        resize: none;
+        margin-top: 0.8rem;
+    }
+    ::placeholder{
+        color: #CCCCCC;
+    }
+    #submit{
+        border:none;
+        background-color: rgb(129, 127, 127);
+        color: white;
+        width: 6rem;
+        height: 3rem;
+        border-radius: 3px;
+        font-size: 1rem;
+    }
     </style>
 </head>
 
@@ -22,19 +68,23 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus
             diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.
             <br>
+            <br>
             Maecenas ipsum metus, semper hendrerit varius mattis, congue sit amet tellus. Aliquam ullamcorper dui sed magna posue re
             ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras varius fermentum iaculis.
             Aenean sodales nibh non lectus tempor a interdum justo ultricies. Sed luctus dui nec nisl tempus faucibus sit amet et
             sem. Aenean augue sapien, sodales ac bibendum ut, pellentesque id eros.</p>
-        </section>
-        <section id="forms">
+        
             <form action="submit.php">
-            <input type="text" placeholder="First Name" required>
-            <input type="text" placeholder="Last Name" required>
-            <input type="email" placeholder="Email Address" required>
-            <label for="com">Message</label>
-            <textarea placeholder="Write here" name="" id="com"></textarea>
-            <input type="submit" value="submit" placeholder="Send">
+            <input class="input" type="text" placeholder="  First Name" required>
+            <br>
+            <input class="input" type="text" placeholder="  Last Name" required>
+            <br>
+            <input class="input" type="email" placeholder="  Email Address" required>
+            <br>
+            <textarea placeholder="  Message" name="" id="com"></textarea>
+            <br>
+            <br>
+            <input id="submit" type="submit" value="Send">
             </form>
         </section>
     </main>
