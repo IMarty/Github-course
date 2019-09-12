@@ -6,16 +6,28 @@
 header{
     display: flex;
     justify-content: space-evenly;
+    margin: 11px auto;
+    font-size: 48px;
+    align-items: center;
     nav{
         display: flex;
         ul{
             display: flex;
+            list-style: none;
+            font-size: 16px;
+            align-items: center;
             li{
                 padding: 0 20px;
             }
         }
     }
+    
+    input{
+        height: 26px;
+        margin: 0 10px;
+    }
 }
+    
 
 footer {
     background-color: #FFFFFF;
