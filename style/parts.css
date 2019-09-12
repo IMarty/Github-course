@@ -3,6 +3,7 @@
           box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: Helvetica, sans-serif;
 }
 
 header {
@@ -46,6 +47,8 @@ header nav ul li a {
   padding: 10px 20px;
   text-decoration: none;
   color: black;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
 }
 
 header nav ul li a:hover {
@@ -54,13 +57,34 @@ header nav ul li a:hover {
   border-radius: 5px;
 }
 
-header input {
-  height: 26px;
-  margin: 0 10px;
+header div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  margin: 0 40px;
+  background-color: #2F2F2F;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+header div .fab {
+  font-size: 16px;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  color: white;
 }
+
+header div input {
+  height: 26px;
+  margin: 0 10px;
+  background-color: #2F2F2F;
+  border: none;
+  color: white;
+}
+
 
 footer {
   background-color: #D3D3D3;
