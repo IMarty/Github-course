@@ -10,13 +10,15 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
     margin: 11px auto;
     font-size: 48px;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    transition-duration: 0;
+
 }
 
 body {
@@ -76,6 +78,7 @@ body {
     padding: 10px 20px;
     text-decoration: none;
     color: black;
+    transition-duration: 0.3s;
 }
 
 #navBar nav ul li a:hover {
