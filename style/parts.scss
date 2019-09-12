@@ -16,3 +16,20 @@ header{
         }
     }
 }
+
+footer {
+    background-color: #FFFFFF;
+    color: #808080;
+    border: 1px solid #707070;
+
+    display: flex;
+    flex-direction: row;
+
+    p{
+        color: #818181;
+    }
+    span{
+        color: #B2B2B2;
+    }
+
+}
