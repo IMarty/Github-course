@@ -11,13 +11,34 @@
     <script type="module" src='https://unpkg.com/html-include-element'></script>
     <style>
         /* Some Styling here maybe ? */
+        *{
+            margin: 0px;
+        }
+        article {
+            column-count: 2;
+        }
+        section {
+            column-count: 3;
+        }
+        
     </style>
 </head>
 
 <body>
     <html-include src="parts/header.html"></html-include>
     <main>
-        About
+        
+        <div>
+            <article>
+                <p>Quisque mollis, sem id laoreet pretium, lectus elit molestie urna, id tristique risus ante at est. Sed pretium metus sit amet erat blandit vitae pulvinar lorem egestas. Sed lectus nulla, bibendum at vulputate sit amet, tincidunt volutpat lorem.<br> Quisque mollis, sem id laoreet pretium, lectus elit molestie urna, id tristique risus ante at est. Sed pretium metus sit amet erat blandit vitae pulvinar lorem egestas. Sed lectus nulla, bibendum at vulputate sit amet, tincidunt volutpat lorem. </p>
+            </article>
+            <section>
+                <p>Quisque mollis, sem id laoreet pretium, lectus elit molestie urna, id tristique risus ante at est. Sed pretium metus sit amet erat blandit vitae pulvinar lorem egestas.<br>Quisque mollis, sem id laoreet pretium, lectus elit molestie urna, id tristique risus ante at est. Sed pretium metus sit amet erat blandit vitae pulvinar lorem egestas.<br>Quisque mollis, sem id laoreet pretium, lectus elit molestie urna, id tristique risus ante at est. Sed pretium metus sit amet erat blandit vitae pulvinar lorem egestas.</p>
+            </section>
+
+
+              
+        </div>
     </main>
     <html-include src="parts/footer.html"></html-include>
 </body>
