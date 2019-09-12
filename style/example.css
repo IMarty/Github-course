@@ -1,0 +1,174 @@
+/* 1. general */
+/* 2. body */
+/* 3. nav */
+/* 4. main */
+/* 5. contact */
+/* 6. footer */
+
+
+/* 1. general */
+
+/* Main color : #1e3799; */
+/* Secondary color: #6a89cc; */
+
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding: 0px;
+}
+
+
+/* 2. body */
+
+body{
+    font-family: 'Coiny', cursive;
+    color: #1e3799;
+}
+
+
+/* 3. nav */
+
+nav{
+    background-color: #6a89cc;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav h1 a{
+    font-size: 12px;
+    font-family: 'Coiny', cursive;
+    color: white;
+    padding: 15px 10px 10px 30px;
+    transition-duration: 0.3s;
+}
+
+nav li{
+    list-style: none;
+    padding: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 11px;
+    font-family: 'Arial', sans-serif;
+    padding: 25px 10px;
+}
+
+/*The menu items become darker blue on mouse hover.*/
+nav a:hover{
+    color: #1e3799;
+}
+
+
+/* 4. main */
+
+main{
+    background-image: url(../images/houndstooth-pattern.png);
+
+}
+main h1{
+    font-size: 18px;
+    text-align: center;
+    padding: 40px;
+}
+
+section{
+    width: 600px;
+    background-color: white;
+    margin-left: 200px;
+}
+
+/* 1: There is a shadow under the main content area. */
+/* "borrowed" from css-tricks.com/snippets/css/css-box-shadow/ */
+.shadow{
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;
+}
+
+article h2{
+    font-size: 14px;
+    padding: 30px;
+}
+
+article h3{
+    font-size: 12px;
+    padding: 20px;
+}
+
+article p{
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    font-size: 11px;
+    color: black;
+}
+
+.species {
+  display: inline-block;
+  padding: 10px;
+  margin: 10px 20px;
+  border: 1px solid blue;    
+  background-color: yellow; 
+}
+
+#species1dog{
+    background-image: url(../images/species-dog.jpg);
+    width: 100px;
+    height: 100px;
+    border-radius: 75px;
+}
+
+#species2cat{
+    background-image: url(../images/species-cat.jpg);
+    width: 100px;
+    height: 100px;
+    border-radius: 75px;
+}
+
+#species3horse{
+    background-image: url(../images/species-horse.jpg);
+    width: 100px;
+    height: 100px;
+    border-radius: 75px;
+}
+
+#species4rabbit{
+    background-image: url(../images/species-rabbit.jpg);
+    width: 100px;
+    height: 100px;
+    border-radius: 75px;
+}
+
+.caption {
+  margin-top: 100px;
+  text-align: center;
+  }   
+
+/* 3: Pictures scale up effect in CSS3 when hovering over the pictures with the mouse. */
+/* *** transition smooth *** */
+/* I didn't get to this yet */
+
+
+/* 5. contact */
+
+.contact{
+    display: flex;
+    line-height: 1.6;
+}
+
+.form-submit-button{
+  background-color: #1e3799;
+color: white;
+}
+
+
+/* 6. footer */
+
+footer{
+    background-color: #6a89cc;
+}
+
+footer p{
+    text-align: right;
+}
