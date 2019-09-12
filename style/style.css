@@ -151,3 +151,7 @@
     display: block;
     padding-top: 50px;
 }
+.introcard h3{
+    font-weight: 500;
+    margin-bottom: 10px;
+}
