@@ -10,121 +10,152 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
     margin: 11px auto;
     font-size: 48px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    transition-duration: 0;
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ main{
+     width: 700px;
+     margin: auto;
+ }
+ 
+ h1 {
+     font-size: 15px;
+     font-weight: 100;
+ }
+ 
+ p{
+     font-size: 12px;
+ }
+ 
+ section {
+     border: 1px solclass blue;
+     display: flex;
+     align-items: flex-start;
+     
+ }
+ div.left{
+     width: 300px;
+ }
+ .slightgrey{
+     color: rgb(128, 124, 124)
+ }
+ 
+#navBar nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+#navBar nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    font-size: 16px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
 }
 
-#navBar nav {
-display: -webkit-box;
-display: -ms-flexbox;
-display: flex;
-}
-
-#navBar nav ul {
-display: -webkit-box;
-display: -ms-flexbox;
-display: flex;
-list-style: none;
-font-size: 16px;
--webkit-box-align: center;
-    -ms-flex-align: center;
-        align-items: center;
-}
-
 #navBar nav ul li {
-padding: 10px 20px;
-border-right: 1px solid black;
+    padding: 10px 20px;
+    border-right: 1px solid black;
 }
 
 #navBar nav ul li a {
-text-transform: uppercase;
-padding: 10px 20px;
-text-decoration: none;
-color: black;
--webkit-transition-duration: 0.3s;
-        transition-duration: 0.3s;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    transition-duration: 0.3s;
 }
 
 #navBar nav ul li a:hover {
-color: white;
-background-color: #707070;
-border-radius: 5px;
+    color: white;
+    background-color: #707070;
+    border-radius: 5px;
 }
 
 #navBar div {
-display: -webkit-box;
-display: -ms-flexbox;
-display: flex;
--ms-flex-item-align: center;
-    align-self: center;
-margin: 0 40px;
-background-color: #2F2F2F;
-padding: 5px 10px;
-border-radius: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: center;
+        align-self: center;
+    margin: 0 40px;
+    background-color: #2F2F2F;
+    padding: 5px 10px;
+    border-radius: 20px;
 }
 
 #navBar div .fab {
-font-size: 16px;
--ms-flex-item-align: center;
-    -ms-grid-row-align: center;
-    align-self: center;
-color: white;
+    font-size: 16px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    color: white;
 }
 
 #navBar div input {
-height: 26px;
-margin: 0 10px;
-background-color: #2F2F2F;
-border: none;
-color: white;
+    height: 26px;
+    margin: 0 10px;
+    background-color: #2F2F2F;
+    border: none;
+    color: white;
 }
 
 footer {
-background-color: #D3D3D3;
-color: #707070;
-display: -webkit-box;
-display: -ms-flexbox;
-display: flex;
--webkit-box-orient: horizontal;
--webkit-box-direction: normal;
-    -ms-flex-direction: row;
-        flex-direction: row;
--webkit-box-pack: center;
-    -ms-flex-pack: center;
-        justify-content: center;
--webkit-box-align: center;
-    -ms-flex-align: center;
-        align-items: center;
-width: 100%;
-height: 73px;
+    background-color: #D3D3D3;
+    color: #707070;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    height: 73px;
 }
 
 footer h1 {
-font-size: 34px;
+    font-size: 34px;
 }
 
 footer hr {
-color: #252E34;
-height: 30px;
-margin: 10px;
+    color: #252E34;
+    height: 30px;
+    margin: 10px;
 }
 
 footer p, footer span {
-font-size: 12px;
+    font-size: 12px;
 }
 
 footer p {
-color: #818181;
-margin-right: 150px;
+    color: #818181;
+    margin-right: 150px;
 }
 
 footer span {
-color: #B2B2B2;
+    color: #B2B2B2;
 }
 /*# sourceMappingURL=parts.css.map */
 .subtitle {
@@ -204,13 +235,12 @@ main {
 }
 /*Section introduction; dennis*/
 #introduction{
-    width: 70%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 20px auto;
 }
 .introcard{
-    width: 220px;
+    margin: 30px;
     padding: 25px;
     font-size: 12px;
     -webkit-box-shadow: 0px -19px 55px -46px rgba(0,0,0,1);
@@ -219,7 +249,8 @@ main {
     /*https://www.cssmatic.com/box-shadow*/
 }
 .introcard .readmore{
-    margin-top: 20px;
+    display: block;
+    margin-top: 50px;
 }
 
 /* 5. contact*/
@@ -274,6 +305,37 @@ body{
     text-decoration: none;
 }
 .subtitle{
-
     margin-bottom: 10px;
+}
+
+#Lost {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#AboutUS {
+    display: block;
+    margin: 30px 0 60px;
+}
+
+#TextPicture {
+    display: flex;
+    margin: 30px 0;
+}
+
+#TextPicture p {
+    margin-left: 50px;
+}
+
+#Description p {
+    column-count: 2;
+}
+
+#Bottom p {
+    column-count: 3;
+}
+
+#Jaques {
+    width: 250px;
+    height: auto;
 }
