@@ -12,6 +12,11 @@ header {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  margin: 11px auto;
+  font-size: 48px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 header nav {
@@ -24,9 +29,36 @@ header nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  list-style: none;
+  font-size: 16px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 header nav ul li {
-  padding: 0 20px;
+  padding: 10px 20px;
+  border-right: 1px solid black;
+}
+
+header nav ul li a {
+  text-transform: uppercase;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: black;
+}
+
+header nav ul li a:hover {
+  color: white;
+  background-color: #707070;
+  border-radius: 5px;
+}
+
+header input {
+  height: 26px;
+  margin: 0 10px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 /*# sourceMappingURL=parts.css.map */
