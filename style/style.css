@@ -98,6 +98,51 @@ main {
     /*https://www.cssmatic.com/box-shadow*/
 }
 .introcard .readmore{
+    margin-top: 20px;
+}
+
+    body{
+        font-family: 'helvetica', serif;
+    }
+    #contact{
+        width: 1200px;
+        margin: auto;
+    }
+    #contact h1{
+        font-weight: 100;
+        padding: 2rem 0 4rem 0;
+    }
+    #contact p{
+        padding-bottom: 3rem;
+    }
+    #contact .input{
+        border-radius: 7px;
+        height: 3rem;
+        width: 25rem;
+        margin: 0.8rem 0;
+    }
+    #com{
+        width: 40rem;
+        height: 20rem;
+        font-family: 'helvetica';
+        padding: 1rem 0 0 0.3rem;
+        font-size: 1rem;
+        border: none;
+        resize: none;
+        margin-top: 0.8rem;
+    }
+    ::placeholder{
+        color: #CCCCCC;
+    }
+    #submit{
+        border:none;
+        background-color: rgb(129, 127, 127);
+        color: white;
+        width: 6rem;
+        height: 3rem;
+        border-radius: 3px;
+        font-size: 1rem;
+    }
     display: block;
     padding-top: 50px;
     }
