@@ -4,6 +4,7 @@
     padding: 0;
     transition-duration: .3s;
     scroll-behavior: smooth;
+    list-style: none;
 }
 #navBar {
     display: -webkit-box;
@@ -428,8 +429,8 @@ li {
 
 .card:hover .text {
     opacity: 1;
-
-#Lost{
+}
+#Lost {
     width: 800px;
     margin: 0 auto;
 }
