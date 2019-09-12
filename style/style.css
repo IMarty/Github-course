@@ -274,3 +274,35 @@ body{
 .subtitle{
     margin-bottom: 10px;
 }
+
+#Lost {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#AboutUS {
+    display: block;
+    margin: 30px 0 60px;
+}
+
+#TextPicture {
+    display: flex;
+    margin: 30px 0;
+}
+
+#TextPicture p {
+    margin-left: 50px;
+}
+
+#Description p {
+    column-count: 2;
+}
+
+#Bottom p {
+    column-count: 3;
+}
+
+#Jaques {
+    width: 250px;
+    height: auto;
+}
