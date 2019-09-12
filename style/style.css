@@ -42,6 +42,9 @@ div.left{
 .slightgrey{
     color: rgb(128, 124, 124)
 }
+.left p, .right p{
+    padding: 5px;
+}
 
 section.flexsection {
     display: flex;
