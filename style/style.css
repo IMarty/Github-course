@@ -3,8 +3,8 @@
     margin: 0;
     padding: 0;
 }
-
-main {
-    width: 70%;
-    margin: 0 auto;
+#introduction{
+    width: 953;
+    display: flex;
+    justify-content: space-around;
 }
