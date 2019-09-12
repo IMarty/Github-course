@@ -17,7 +17,20 @@ header{
             font-size: 16px;
             align-items: center;
             li{
-                padding: 0 20px;
+                padding: 10px 20px;
+                border-right: 1px solid black;
+                a{
+                    text-transform: uppercase;
+                    padding: 10px 20px;
+                    text-decoration: none;
+                    color: black;
+                    
+                    &:hover{
+                        color: white;
+                        background-color: #707070;
+                        border-radius: 5px;
+                    }
+                }
             }
         }
     }
@@ -25,14 +38,14 @@ header{
     input{
         height: 26px;
         margin: 0 10px;
+        align-self: center;
     }
 }
     
 
 footer {
-    background-color: #FFFFFF;
+    background-color: #707070;
     color: #808080;
-    border: 1px solid #707070;
 
     display: flex;
     flex-direction: row;
