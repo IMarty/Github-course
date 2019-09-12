@@ -232,13 +232,12 @@ main {
 }
 /*Section introduction; dennis*/
 #introduction{
-    width: 70%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 20px auto;
 }
 .introcard{
-    width: 220px;
+    margin: 30px;
     padding: 25px;
     font-size: 12px;
     -webkit-box-shadow: 0px -19px 55px -46px rgba(0,0,0,1);
@@ -247,7 +246,8 @@ main {
     /*https://www.cssmatic.com/box-shadow*/
 }
 .introcard .readmore{
-    margin-top: 20px;
+    display: block;
+    margin-top: 50px;
 }
 
 /* 5. contact*/
@@ -390,4 +390,34 @@ li {
 .card:hover .text {
     opacity: 1;
 
+#Lost {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#AboutUS {
+    display: block;
+    margin: 30px 0 60px;
+}
+
+#TextPicture {
+    display: flex;
+    margin: 30px 0;
+}
+
+#TextPicture p {
+    margin-left: 50px;
+}
+
+#Description p {
+    column-count: 2;
+}
+
+#Bottom p {
+    column-count: 3;
+}
+
+#Jaques {
+    width: 250px;
+    height: auto;
 }
