@@ -4,15 +4,6 @@
     padding: 0;
     transition-duration: .3s;
 }
-#introduction{
-    width: 80%;
-    display: flex;
-    justify-content: space-around;
-    margin: 5px auto;
-}
-.introcard{
-    width: 220px;
-}
 
 .subtitle {
     color: #8E8E8E;
@@ -87,5 +78,22 @@
 
 #galery .images img:hover {
     opacity: .5;
-    transform: scale(1.5)
+    transform: scale(1.5);
+}
+#introduction{
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+    margin: 5px auto;
+}
+.introcard{
+    width: 220px;
+    padding: 10px;
+    -webkit-box-shadow: 0px 0px 12px 11px rgba(0,0,0,0.12);
+    -moz-box-shadow: 0px 0px 12px 11px rgba(0,0,0,0.12);
+    box-shadow: 0px 0px 12px 11px rgba(0,0,0,0.12);
+    /*https://www.cssmatic.com/box-shadow*/
+}
+.introcard .readmore{
+    margin-top: 20px;
 }
