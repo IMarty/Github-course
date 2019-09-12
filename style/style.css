@@ -21,35 +21,7 @@
 
 }
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
- }
- main{
-     width: 700px;
-     margin: auto;
- }
- 
- h1 {
-     font-size: 15px;
-     font-weight: 100;
- }
- 
- p{
-     font-size: 12px;
- }
- 
- section {
-     border: 1px solclass blue;
-     display: flex;
-     align-items: flex-start;
-     
- }
- div.left{
-     width: 300px;
- }
- .slightgrey{
-     color: rgb(128, 124, 124)
- }
+
  
 #navBar nav {
     display: -webkit-box;

@@ -3,5 +3,5 @@
 commit for each snapshot you want to take
 push you changes to apply then on the remote repository
 pull to get changes from the remote
-
-Access here : https://git-course-nightmare.netlify.com/
+https://git-course-nightmare.netlify.com/
+Access here : 
