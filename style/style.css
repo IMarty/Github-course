@@ -23,6 +23,37 @@
 
 
  
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+main {
+    width: 85%;
+    margin: 40px auto;
+}
+
+h1 {
+    font-size: 15px;
+    font-weight: 100;
+}
+
+p{
+    font-size: 12px;
+}
+
+section {
+    border: 1px solid blue;
+    display: flex;
+    align-items: flex-start;
+    
+}
+div.left{
+    width: 300px;
+}
+.slightgrey{
+    color: rgb(128, 124, 124)
+}
+
 #navBar nav {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -138,12 +169,6 @@ footer span {
     color: #333333;
 }
 
-main {
-    width: 85%;
-    margin: 40px auto;
-    font-family: 'Helvetica', 'Arial', sans-serif;
-}
-
 #cta {
     display: flex;
 }
@@ -227,9 +252,6 @@ main {
 
 /* 5. contact*/
 
-body{
-    font-family: 'helvetica', serif;
-}
 #contact{
     width: 1200px;
     margin: auto;
