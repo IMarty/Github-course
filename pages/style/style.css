@@ -22,7 +22,6 @@ p{
 }
 
 section {
-    border: 1px solclass blue;
     display: flex;
     align-items: flex-start;
 
