@@ -1,8 +1,37 @@
 body{
-    
+    background-image: url("images/spacer.gif");
+
     list-style: none;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    width: 700px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 15px;
+    font-weight: 100;
+}
+
+p{
+    font-size: 12px;
+}
+
+section {
+    display: flex;
+    align-items: flex-start;
+
+}
+div.left{
+    width: 300px;
+}
+.slightgrey{
+    color: rgb(128, 124, 124)
+}
 .archive-main-div{
     display: flex;
     justify-content: space-between;
@@ -11,4 +40,36 @@ body{
     width: 33%;
     padding: 10px;
     margin: 10px;
+}
+
+#Lost {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#AboutUS {
+    display: block;
+    margin: 30px 0 60px;
+}
+
+#TextPicture {
+    display: flex;
+    margin: 30px 0;
+}
+
+#TextPicture p {
+    margin-left: 50px;
+}
+
+#Description p {
+    column-count: 2;
+}
+
+#Bottom p {
+    column-count: 3;
+}
+
+#Jaques {
+    width: 250px;
+    height: auto;
 }
