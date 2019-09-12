@@ -55,3 +55,20 @@ header{
         }
     }
 }
+    
+
+footer {
+    background-color: #707070;
+    color: #808080;
+
+    display: flex;
+    flex-direction: row;
+
+    p{
+        color: #818181;
+    }
+    span{
+        color: #B2B2B2;
+    }
+
+}
