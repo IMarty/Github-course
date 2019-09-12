@@ -19,6 +19,36 @@
             align-items: center;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ main{
+     width: 700px;
+     margin: auto;
+ }
+ 
+ h1 {
+     font-size: 15px;
+     font-weight: 100;
+ }
+ 
+ p{
+     font-size: 12px;
+ }
+ 
+ section {
+     border: 1px solclass blue;
+     display: flex;
+     align-items: flex-start;
+     
+ }
+ div.left{
+     width: 300px;
+ }
+ .slightgrey{
+     color: rgb(128, 124, 124)
+ }
+ 
 #navBar nav {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -202,13 +232,12 @@ main {
 }
 /*Section introduction; dennis*/
 #introduction{
-    width: 70%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 20px auto;
 }
 .introcard{
-    width: 220px;
+    margin: 30px;
     padding: 25px;
     font-size: 12px;
     -webkit-box-shadow: 0px -19px 55px -46px rgba(0,0,0,1);
@@ -217,7 +246,8 @@ main {
     /*https://www.cssmatic.com/box-shadow*/
 }
 .introcard .readmore{
-    margin-top: 20px;
+    display: block;
+    margin-top: 50px;
 }
 
 /* 5. contact*/
