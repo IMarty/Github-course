@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    transition-duration: .3s;
 }
 #introduction{
     width: 80%;
@@ -11,6 +12,14 @@
 }
 .introcard{
     width: 220px;
+}
+
+.subtitle {
+    color: #8E8E8E;
+}
+
+.cardcontent {
+    color: #333333;
 }
 
 #home-main {
@@ -43,4 +52,40 @@
 
 #cta img {
     margin: 0 30px;
+}
+
+#galery h3 {
+    font-size: 15px;
+    color: #464646;
+    margin-bottom: 50px;
+}
+
+#galery .container {
+    display: flex;
+}
+
+#galery .subtitle {
+    margin-bottom: 10px;
+}
+
+#galery .images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#galery .images div {
+    width: 30%;
+    margin: 10px;
+    background-color: black;
+    overflow: hidden;
+}
+
+#galery .images img {
+    width: 100%;
+    height: 100%;
+}
+
+#galery .images img:hover {
+    opacity: .5;
+    transform: scale(1.5)
 }
