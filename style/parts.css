@@ -72,9 +72,14 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 1240px;
   height: 73px;
-  margin: auto;
 }
 
 footer h1 {
@@ -83,6 +88,8 @@ footer h1 {
 
 footer hr {
   color: #252E34;
+  height: 30px;
+  margin: 10px;
 }
 
 footer p, footer span {
@@ -91,12 +98,7 @@ footer p, footer span {
 
 footer p {
   color: #818181;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  margin-right: 150px;
 }
 
 footer span {

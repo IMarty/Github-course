@@ -49,25 +49,26 @@ footer {
 
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     width: 1240px;
     height: 73px;
-    margin:auto;
 
     h1{
         font-size: 34px;
     }
-
+    
     hr{
         color: #252E34;
+        height: 30px;
+        margin: 10px;
     }
     p, span{
         font-size: 12px;
-
     }
     p{
         color: #818181;
-        display: flex;
-        justify-content: space-between;
+        margin-right: 150px;
     }
     span{
         color: #B2B2B2;
