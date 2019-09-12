@@ -25,30 +25,31 @@
         main {
             width: 1200px;
             margin: auto;
+            padding-top: 30px;
         }
 
-        section {
+        .portfolio-section {
             display: flex;
             justify-content: space-between;
             margin: 5px;
             margin-bottom: 90px;
         }
 
-        i {
+        .i-portifolio {
             display: inline;
             margin-right: 5px;
         }
 
-        p {
+        .p-portifolio {
             display: inline;
         }
 
-        ul {
+        .ul-portifolio {
             display: flex;
             padding-bottom: 30px;
         }
 
-        a {
+        .a-portifolio {
 
             text-decoration: none;
             color: black;
@@ -57,9 +58,9 @@
             padding-left: 10px;
             font-size: 14px;
         }
-        
-        a:hover{
-            color:blue;
+
+        .a-portifolio:hover {
+            color: blue;
 
         }
 
@@ -67,22 +68,47 @@
             border: none;
 
         }
-        h1{
-            font-size:15px;
-            padding-left:10px;
+
+        h1 {
+            font-size: 15px;
+            padding-left: 10px;
             padding-bottom: 30px;
 
         }
 
-        main{
-            padding-top:30px;
+        .card {
+            position: relative;
+            justify-content: space-between;
         }
 
+        .pic {
+            opacity: 1;
+        }
+
+        .text {
+            opacity: 0;
+            position: absolute;
+            top: 80%;
+            color: black;
+
+        }
+
+        li {
+            padding-left: 15px;
+        }
+
+        .card:hover .pic {
+            opacity: 0.3;
+
+        }
+
+        .card:hover .text {
+            opacity: 1;
+
+        }
+    </style>
 
 
-</style>
-
-  
 </head>
 
 <body>
@@ -93,114 +119,240 @@
         <h1>Portfolio</h1>
 
         <nav>
-            <ul>
+            <ul class="ul-portifolio">
                 <div class="noborder">
                     <li><a class="noborder" href="#all">All</a></li>
                 </div>
-                <li><a href="#audio">Audio</a></li>
-                <li><a href="#development">Development</a></li>
-                <li><a href="#web">Web</a></li>
-                <li><a href="#print design">Print Design</a></li>
-                <li><a href="#motiongraphics">MotionGraphics</a></li>
+                <li><a class="a-portifolio" href="#audio">Audio</a></li>
+                <li><a class="a-portifolio" href="#development">Development</a></li>
+                <li><a class="a-portifolio" href="#web">Web</a></li>
+                <li><a class="a-portifolio" href="#print design">Print Design</a></li>
+                <li><a class="a-portifolio" href="#motiongraphics">MotionGraphics</a></li>
             </ul>
         </nav>
 
 
-        <section>
-            <article class="card">
-                <img src="https://ih1.redbubble.net/image.6038375.6936/flat,220x200,075,t.u1.jpg" alt="">
-                <h2>Western Poster</h2>
-                <i class="fas fa-tag"></i>
-                <p>print</p>
-            </article>
-            <article class="card">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThknaCn83M3IP-uesK1R9WB5hFiO6q267mbortCdyTXfgvKKta1w"
-                    alt="">
-                <h2>Premium Stickers</h2>
-                <i class="fas fa-tag"></i>
-                <p>print design</p>
-            </article>
-            <article class="card">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ4SdLwVGkW62l5_JnDC1E-MqgUOzM7zofpL05hJ2uy2bqoaWzMw"
-                    alt="">
-                <h2>Airplane Soundtrack</h2>
-                <i class="fas fa-tag"></i>
-                <p>
-                    audio | motion graphics
-                </p>
-            </article>
-            <article class="card">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdvD2OW9MEOBx3cW3zJFl8OXd-OUVwtrS4Rcmek5a2uqmD6vB5"
-                    alt="">
-                <h2>Airplane Soundtrack</h2>
-                <i class="fas fa-tag"></i>
-                <p>audio | motion graphics</p>
-            </article>
-        </section>
-        <section>
-            <article class="card">
-                <img src="https://ih1.redbubble.net/image.6038375.6936/flat,220x200,075,t.u1.jpg" alt="">
-                <h2>Western Poster</h2>
-                <i class="fas fa-tag"></i>
-                <p>print</p>
-            </article>
-            <article class="card">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThknaCn83M3IP-uesK1R9WB5hFiO6q267mbortCdyTXfgvKKta1w"
-                    alt="">
-                <h2>Premium Stickers</h2>
-                <i class="fas fa-tag"></i>
-                <p>print design</p>
-            </article>
-            <article class="card">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ4SdLwVGkW62l5_JnDC1E-MqgUOzM7zofpL05hJ2uy2bqoaWzMw"
-                    alt="">
-                <h2>Airplane Soundtrack</h2>
-                <i class="fas fa-tag"></i>
-                <p>
-                    audio | motion graphics
-                </p>
-            </article>
-            <article class="card">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdvD2OW9MEOBx3cW3zJFl8OXd-OUVwtrS4Rcmek5a2uqmD6vB5"
-                    alt="">
-                <h2>Airplane Soundtrack</h2>
-                <i class="fas fa-tag"></i>
-                <p>audio | motion graphics</p>
-            </article>
-        </section>
-        <section>
-            <article class="card">
-                <img src="https://ih1.redbubble.net/image.6038375.6936/flat,220x200,075,t.u1.jpg" alt="">
-                <h2>Western Poster</h2>
-                <i class="fas fa-tag"></i>
-                <p>print</p>
-            </article>
-            <article class="card">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThknaCn83M3IP-uesK1R9WB5hFiO6q267mbortCdyTXfgvKKta1w"
-                    alt="">
-                <h2>Premium Stickers</h2>
-                <i class="fas fa-tag"></i>
-                <p>print design</p>
-            </article>
-            <article class="card">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ4SdLwVGkW62l5_JnDC1E-MqgUOzM7zofpL05hJ2uy2bqoaWzMw"
-                    alt="">
-                <h2>Airplane Soundtrack</h2>
-                <i class="fas fa-tag"></i>
-                <p>
-                    audio | motion graphics
-                </p>
-            </article>
-            <article class="card">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdvD2OW9MEOBx3cW3zJFl8OXd-OUVwtrS4Rcmek5a2uqmD6vB5"
-                    alt="">
-                <h2>Airplane Soundtrack</h2>
-                <i class="fas fa-tag"></i>
-                <p>audio | motion graphics</p>
-            </article>
-        </section>
+        <section class="portfolio-section">
+            <article class="portfolio">
+                <div class="card">
+                    <img class="pic" src="https://ih1.redbubble.net/image.6038375.6936/flat,220x200,075,t.u1.jpg"
+                        alt="">
 
+                    <div class="text">
+                        <ul class="ul-portifolio">
+                            <li class="li-portifolio">201<br>Views</li>
+                            <li class="li-portifolio">95<br>Likes</li>
+                            <li class="li-portifolio">10<br>Comments</li>
+                        </ul>
+                    </div>
+                </div>
+                <h2>Ultra Premium Slider</h2>
+                <i class="fas fa-tag"></i>
+                <p class="p-portifolio">Web Development</p>
+            </article>
+            <article class="portfolio">
+                <div class="card">
+                    <img class="pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ4SdLwVGkW62l5_JnDC1E-MqgUOzM7zofpL05hJ2uy2bqoaWzMw"
+                        alt="">
 
+                    <div class="text">
+                        <ul class="ul-portifolio">
+                            <li class="li-portifolio">201<br>Views</li>
+                            <li class="li-portifolio">95<br>Likes</li>
+                            <li class="li-portifolio">10<br>Comments</li>
+                        </ul>
+                    </div>
+                </div>
+                <h2>Western Poster</h2>
+                <i class="fas fa-tag"></i>
+                <p class="p-portifolio">print</p>
+            </article>
+            <article class="portfolio">
+                <div class="card">
+                    <img class="pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdvD2OW9MEOBx3cW3zJFl8OXd-OUVwtrS4Rcmek5a2uqmD6vB5"
+                        alt="">
+
+                    <div class="text">
+                        <ul class="ul-portifolio">
+                            <li class="li-portifolio">201<br>Views</li>
+                            <li class="li-portifolio">95<br>Likes</li>
+                            <li class="li-portifolio">10<br>Comments</li>
+                        </ul>
+                    </div>
+                </div>
+                <h2>Premium Stickers</h2>
+                <i class="fas fa-tag"></i>
+                <p class="p-portifolio">print design</p>
+            </article>
+            <article class="portfolio">
+                <div class="card">
+                    <img class="pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThknaCn83M3IP-uesK1R9WB5hFiO6q267mbortCdyTXfgvKKta1w"
+                        alt="">
+                        
+                    <div class="text">
+                        <ul class="ul-portifolio">
+                            <li class="li-portifolio">201<br>Views</li>
+                            <li class="li-portifolio">95<br>Likes</li>
+                            <li class="li-portifolio">10<br>Comments</li>
+                        </ul>
+                    </div>
+                </div>
+                <h2>Airplane Soundtrack</h2>
+                        <i class="fas fa-tag"></i>
+                        <p class="p-portifolio">
+                            audio | motion graphics
+                        </p>
+            </article>
+        </section>
+        
+
+        <section class="portfolio-section">
+            <article class="portfolio">
+                <div class="card">
+                    <img class="pic" src="https://ih1.redbubble.net/image.6038375.6936/flat,220x200,075,t.u1.jpg"
+                        alt="">
+
+                    <div class="text">
+                        <ul class="ul-portifolio">
+                            <li class="li-portifolio">201<br>Views</li>
+                            <li class="li-portifolio">95<br>Likes</li>
+                            <li class="li-portifolio">10<br>Comments</li>
+                        </ul>
+                    </div>
+                </div>
+                <h2>Ultra Premium Slider</h2>
+                <i class="fas fa-tag"></i>
+                <p class="p-portifolio">Web Development</p>
+            </article>
+            <article class="portfolio">
+                <div class="card">
+                    <img class="pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ4SdLwVGkW62l5_JnDC1E-MqgUOzM7zofpL05hJ2uy2bqoaWzMw"
+                        alt="">
+
+                    <div class="text">
+                        <ul class="ul-portifolio">
+                            <li class="li-portifolio">201<br>Views</li>
+                            <li class="li-portifolio">95<br>Likes</li>
+                            <li class="li-portifolio">10<br>Comments</li>
+                        </ul>
+                    </div>
+                </div>
+                <h2>Western Poster</h2>
+                <i class="fas fa-tag"></i>
+                <p class="p-portifolio">print</p>
+            </article>
+            <article class="portfolio">
+                <div class="card">
+                    <img class="pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdvD2OW9MEOBx3cW3zJFl8OXd-OUVwtrS4Rcmek5a2uqmD6vB5"
+                        alt="">
+
+                    <div class="text">
+                        <ul class="ul-portifolio">
+                            <li class="li-portifolio">201<br>Views</li>
+                            <li class="li-portifolio">95<br>Likes</li>
+                            <li class="li-portifolio">10<br>Comments</li>
+                        </ul>
+                    </div>
+                </div>
+                <h2>Premium Stickers</h2>
+                <i class="fas fa-tag"></i>
+                <p class="p-portifolio">print design</p>
+            </article>
+            <article class="portfolio">
+                <div class="card">
+                    <img class="pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThknaCn83M3IP-uesK1R9WB5hFiO6q267mbortCdyTXfgvKKta1w"
+                        alt="">
+                        
+                    <div class="text">
+                        <ul class="ul-portifolio">
+                            <li class="li-portifolio">201<br>Views</li>
+                            <li class="li-portifolio">95<br>Likes</li>
+                            <li class="li-portifolio">10<br>Comments</li>
+                        </ul>
+                    </div>
+                </div>
+                <h2>Airplane Soundtrack</h2>
+                        <i class="fas fa-tag"></i>
+                        <p class="p-portifolio">
+                            audio | motion graphics
+                        </p>
+            </article>
+        </section>
+        
+
+        <section class="portfolio-section">
+            <article class="portfolio">
+                <div class="card">
+                    <img class="pic" src="https://ih1.redbubble.net/image.6038375.6936/flat,220x200,075,t.u1.jpg"
+                        alt="">
+
+                    <div class="text">
+                        <ul class="ul-portifolio">
+                            <li class="li-portifolio">201<br>Views</li>
+                            <li class="li-portifolio">95<br>Likes</li>
+                            <li class="li-portifolio">10<br>Comments</li>
+                        </ul>
+                    </div>
+                </div>
+                <h2>Ultra Premium Slider</h2>
+                <i class="fas fa-tag"></i>
+                <p class="p-portifolio">Web Development</p>
+            </article>
+            <article class="portfolio">
+                <div class="card">
+                    <img class="pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ4SdLwVGkW62l5_JnDC1E-MqgUOzM7zofpL05hJ2uy2bqoaWzMw"
+                        alt="">
+
+                    <div class="text">
+                        <ul class="ul-portifolio">
+                            <li class="li-portifolio">201<br>Views</li>
+                            <li class="li-portifolio">95<br>Likes</li>
+                            <li class="li-portifolio">10<br>Comments</li>
+                        </ul>
+                    </div>
+                </div>
+                <h2>Western Poster</h2>
+                <i class="fas fa-tag"></i>
+                <p class="p-portifolio">print</p>
+            </article>
+            <article class="portfolio">
+                <div class="card">
+                    <img class="pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdvD2OW9MEOBx3cW3zJFl8OXd-OUVwtrS4Rcmek5a2uqmD6vB5"
+                        alt="">
+
+                    <div class="text">
+                        <ul class="ul-portifolio">
+                            <li class="li-portifolio">201<br>Views</li>
+                            <li class="li-portifolio">95<br>Likes</li>
+                            <li class="li-portifolio">10<br>Comments</li>
+                        </ul>
+                    </div>
+                </div>
+                <h2>Premium Stickers</h2>
+                <i class="fas fa-tag"></i>
+                <p class="p-portifolio">print design</p>
+            </article>
+            <article class="portfolio">
+                <div class="card">
+                    <img class="pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThknaCn83M3IP-uesK1R9WB5hFiO6q267mbortCdyTXfgvKKta1w"
+                        alt="">
+                        
+                    <div class="text">
+                        <ul class="ul-portifolio">
+                            <li class="li-portifolio">201<br>Views</li>
+                            <li class="li-portifolio">95<br>Likes</li>
+                            <li class="li-portifolio">10<br>Comments</li>
+                        </ul>
+                    </div>
+                </div>
+                <h2>Airplane Soundtrack</h2>
+                        <i class="fas fa-tag"></i>
+                        <p class="p-portifolio">
+                            audio | motion graphics
+                        </p>
+            </article>
+        </section>
+        
 
 
 
