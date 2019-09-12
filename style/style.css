@@ -3,15 +3,6 @@
     margin: 0;
     padding: 0;
 }
-#introduction{
-    width: 80%;
-    display: flex;
-    justify-content: space-around;
-    margin: 5px auto;
-}
-.introcard{
-    width: 220px;
-}
 
 #home-main {
     width: 85%;
@@ -43,4 +34,21 @@
 
 #cta img {
     margin: 0 30px;
+}
+#introduction{
+    width: 85%;
+    display: flex;
+    justify-content: space-around;
+    margin: 5px auto;
+}
+.introcard{
+    width: 220px;
+    padding: 10px;
+    -webkit-box-shadow: 0px 0px 12px 11px rgba(0,0,0,0.12);
+    -moz-box-shadow: 0px 0px 12px 11px rgba(0,0,0,0.12);
+    box-shadow: 0px 0px 12px 11px rgba(0,0,0,0.12);
+    /*https://www.cssmatic.com/box-shadow*/
+}
+.introcard .readmore{
+    margin-top: 20px;
 }
