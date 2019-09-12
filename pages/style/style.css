@@ -1,5 +1,5 @@
 body{
-    background-color: azure;
+    
     list-style: none;
 }
 
@@ -31,4 +31,12 @@ div.left{
 }
 .slightgrey{
     color: rgb(128, 124, 124)
+.archive-main-div{
+    display: flex;
+    justify-content: space-between;
+}
+#div1, #div2, #div3{
+    width: 33%;
+    padding: 10px;
+    margin: 10px;
 }
